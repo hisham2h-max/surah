@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#145d51">
 <meta name="color-scheme" content="light">
 <meta name="description" content="وردي في الصلاة: قائمة السور المحفوظة، الأقسام، ودورات القراءة العشوائية بدون إنترنت.">
-<title>وردي في الصلاة — v1.1</title>
+<title>وردي في الصلاة — v1.2</title>
 <style>
 :root{--forest:#145d51;--forest-deep:#11483e;--mint:#e8f4ed;--gold:#c99e54;--ink:#20352f;--muted:#697971;--bg:#f7f8f3;--line:#dce6dc;--white:#fff;--danger:#a4443b;--warning:#885c15;--shadow:0 10px 30px rgba(28,54,43,.055)}
 *{box-sizing:border-box}html{font-family:-apple-system,BlinkMacSystemFont,"Geeza Pro","Noto Naskh Arabic","Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--bg)}body{margin:0;line-height:1.65;-webkit-text-size-adjust:100%}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.5}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #80bfa7;outline-offset:2px}header{background:linear-gradient(150deg,var(--forest-deep),var(--forest));color:#fff;padding:calc(28px + env(safe-area-inset-top)) 20px 22px}header .wrap{max-width:820px;margin:auto;display:flex;align-items:center;gap:14px}.seal{width:50px;height:50px;border:1px solid rgba(255,255,255,.44);border-radius:15px;display:grid;place-items:center;font-size:29px;background:rgba(255,255,255,.09)}h1{font-size:clamp(24px,5vw,33px);line-height:1.2;margin:0 0 5px;font-weight:800;letter-spacing:-.4px}header p{font-size:13px;color:#d5e7df;margin:0}.app{max-width:820px;margin:0 auto;padding:18px 16px calc(35px + env(safe-area-inset-bottom))}.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;background:#edf3ec;padding:6px;border-radius:16px;border:1px solid var(--line);margin-bottom:17px}.tab{padding:10px 5px;border:0;background:transparent;border-radius:11px;color:#53645e;font-size:14px;font-weight:750;min-height:43px}.tab[aria-selected=true]{background:var(--white);color:var(--forest);box-shadow:0 2px 8px rgba(24,65,47,.09)}.panel[hidden],.notice[hidden],.form-fields[hidden],.empty[hidden]{display:none!important}.card{border:1px solid var(--line);background:var(--white);border-radius:18px;padding:17px;box-shadow:var(--shadow);margin-bottom:14px}.card-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}h2{font-size:19px;margin:0 0 5px;font-weight:800}h3{font-size:16px;margin:0 0 7px}p{margin:6px 0}.subtitle,.muted,.help{color:var(--muted);font-size:13px}.eyebrow{font-size:12px;font-weight:700;color:var(--forest);letter-spacing:.1px}.statline{display:flex;align-items:baseline;justify-content:space-between;gap:10px}.bigcount{font-size:31px;line-height:1.15;font-weight:850;color:var(--forest);font-variant-numeric:tabular-nums}.progress{height:10px;background:#eaf0e9;border-radius:99px;overflow:hidden;margin:14px 0 10px}.progress-fill{width:0;height:100%;background:linear-gradient(90deg,#269476,var(--forest));border-radius:99px;transition:width .25s ease}.buttonrow{display:flex;flex-wrap:wrap;gap:9px;margin-top:15px}.btn{appearance:none;border:1px solid var(--forest);border-radius:12px;min-height:45px;padding:9px 16px;background:var(--forest);color:#fff;font-weight:780}.btn:hover{filter:brightness(.98)}.btn.secondary{background:#fff;color:var(--forest)}.btn.soft{background:var(--mint);color:var(--forest);border-color:#cfdfd3}.btn.wide{width:100%}.hint{display:block;color:var(--muted);font-size:12px;margin-top:6px}.group{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:10px}.group-header{padding:10px 14px;background:#f1f7f2;color:var(--forest);font-size:14px;font-weight:780;border-bottom:1px solid #e1e9df;display:flex;justify-content:space-between;gap:10px}.tag{background:#dcebe0;color:var(--forest);font-size:11px;padding:2px 9px;border-radius:100px;white-space:nowrap;font-weight:700}.entry{display:flex;align-items:center;gap:13px;padding:14px 13px;min-height:57px;cursor:pointer}.entry + .entry{border-top:1px solid #ecf0ea}.entry input{flex:none;accent-color:var(--forest);height:23px;width:23px;margin:0;cursor:pointer}.entry .line{font-size:15px;font-weight:700;flex:1;overflow-wrap:anywhere}.entry .secondary{font-size:12px;color:var(--muted);font-weight:500;display:block;margin-top:2px}.entry.checked .line{color:#84938b;text-decoration:line-through}.entry.checked{background:#f7faf7}.notice{padding:12px 14px;border-radius:12px;margin-bottom:13px;font-size:13px;border:1px solid #c5ddcb;background:#eff8f1;color:#215c3e}.notice.error{border-color:#e6c1b9;background:#fff2ee;color:var(--danger)}.notice.warn{border-color:#ebd5a3;background:#fff8e8;color:var(--warning)}.notice strong{display:block;margin-bottom:3px}.field{margin:0 0 14px}.field>label,.label{display:block;font-size:14px;font-weight:750;margin-bottom:7px}.field input,.field select{border-radius:12px;width:100%;min-height:46px;border:1px solid #cbd8cf;background:#fff;padding:10px 12px;color:var(--ink)}.field input::placeholder{color:#929e97}.two{display:grid;grid-template-columns:1fr 1fr;gap:11px}.radio-row{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:15px}.radio-card{flex:1 1 180px;display:flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;cursor:pointer;font-size:14px;font-weight:720}.radio-card:has(input:checked){border-color:var(--forest);background:var(--mint);color:var(--forest)}.radio-card input{accent-color:var(--forest);width:17px;height:17px}.library-row{padding:11px 0;border-bottom:1px solid var(--line)}.library-row:last-child{border:0}.library-row summary{cursor:pointer;font-weight:750;display:flex;gap:9px;align-items:center;justify-content:space-between;list-style:none}.library-row summary::-webkit-details-marker{display:none}.library-row summary:after{content:"⌄";margin-right:auto;color:var(--muted)}.library-row[open] summary:after{content:"⌃"}.section-list{padding:6px 14px 0 0;margin:0;color:#54695b;font-size:13px}.section-list li{margin:7px 0}.pill{border-radius:100px;background:var(--mint);font-size:12px;padding:3px 9px;color:var(--forest);white-space:nowrap}.divide{height:1px;background:var(--line);margin:15px 0}.smallcard{padding:12px 14px;background:#f7faf6;border-radius:12px;border:1px solid var(--line);margin:12px 0;font-size:13px}.smallcard strong{display:block}.callout{background:#fff8e7;border:1px solid #efdcb2;border-radius:14px;padding:12px 14px;color:#80591e;margin:12px 0;font-size:13px}.filesel{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}.filebtn{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;text-align:center}.mini-list{margin:8px 0 0;padding-right:20px}.mini-list li{margin-bottom:7px}footer{color:#87968d;font-size:12px;text-align:center;margin-top:20px}.counterdate{white-space:nowrap;font-size:12px;color:var(--muted)}.no-content{padding:20px;text-align:center;color:var(--muted);border:1px dashed #c6d6cb;border-radius:14px;background:#fff}.sr-only{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden} @media(max-width:390px){.app{padding:14px 12px 25px}.card{padding:14px}.tab{font-size:12px}.entry .line{font-size:14px}.btn{flex:1}}@media(min-width:750px){.app{padding-top:22px}.card{padding:22px}.entry{padding:15px 17px}}@media(prefers-reduced-motion:reduce){.progress-fill{transition:none}}
@@ -14,8 +14,8 @@
 .library-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}
 .mini-btn{background:#fff;border:1px solid #bdd1c3;border-radius:9px;color:var(--forest);padding:6px 13px;min-height:35px;font-size:13px;font-weight:750}
 .mini-btn.danger{border-color:#e2b6b0;color:var(--danger)}
-#edit-panel[hidden]{display:none!important}
-#edit-panel{scroll-margin-top:12px;border-color:#9ec8b1}
+#edit-panel[hidden],#edit-whole-panel[hidden]{display:none!important}
+#edit-panel,#edit-whole-panel{scroll-margin-top:12px;border-color:#9ec8b1}
 #edit-panel .form-note{font-size:12px;color:var(--muted)}
 .saved-section{padding:12px 0;border-bottom:1px solid var(--line)}.saved-section:last-child{border-bottom:0}.section-list{padding:6px 12px 8px 0}
 </style>
@@ -37,11 +37,12 @@
  <div class="no-content empty" id="reading-empty" hidden>لا توجد سور في الدورة الحالية. أضف سورة ثم ابدأ دورة جديدة.</div>
 </section>
 <section id="manage-panel" class="panel" role="tabpanel" hidden>
- <div class="card"><h2>إضافة سورة أو قسم</h2><p class="help">اختر من سور القرآن الـ١١٤، وأضفها للمحفوظات. الإضافة تظهر في الدورة القادمة.</p>
+ <div class="card"><h2>إضافة سورة أو قسم</h2><p class="help">اختر من سور القرآن الـ١١٤. تظهر الإضافة فوراً في قائمة القراءة الحالية، من دون تغيير ترتيب السور أو العلامات السابقة.</p>
   <form id="add-form" novalidate>
    <div class="field"><label for="surah-search">بحث عن سورة أو رقمها (اختياري)</label><input id="surah-search" type="search" autocomplete="off" placeholder="مثلاً: البقرة أو 002"></div>
    <div class="field"><label for="surah-select">السورة</label><select id="surah-select" required></select><div class="hint" id="surah-meta"></div></div>
    <div class="label">نوع الإضافة</div><div class="radio-row"><label class="radio-card"><input type="radio" name="mode" value="whole" checked> السورة كاملة</label><label class="radio-card"><input type="radio" name="mode" value="section"> قسم من السورة</label></div>
+   <div class="form-fields" id="whole-fields"><div class="field"><label for="whole-opening">أول كلمات السورة (اختياري)</label><input id="whole-opening" type="text" maxlength="140" autocomplete="off" placeholder="مثلاً: قل هو الله أحد"><span class="hint">يمكنك إضافتها أو تعديلها لاحقاً. تظهر مع السورة في قائمة القراءة.</span></div></div>
    <div class="form-fields" id="section-fields" hidden><div class="two"><div class="field"><label for="verse-start">من الآية</label><input id="verse-start" type="text" inputmode="numeric" autocomplete="off" placeholder="١"></div><div class="field"><label for="verse-end">إلى الآية</label><input id="verse-end" type="text" inputmode="numeric" autocomplete="off" placeholder="٥"></div></div><div class="field"><label for="verse-opening">أول كلمات آية البداية</label><input id="verse-opening" type="text" maxlength="140" autocomplete="off" placeholder="مثلاً: الم"></div></div>
    <div id="existing-info" class="smallcard" aria-live="polite"></div>
    <button type="submit" class="btn wide" id="add-save">حفظ في المحفوظات</button><p class="hint" id="add-hint">لا تُضاف السورة نفسها مرتين. التحقق من تداخل الآيات بين الأقسام مسؤوليتك.</p>
@@ -57,7 +58,15 @@
    <div class="buttonrow"><button type="submit" class="btn">حفظ التعديل</button><button type="button" class="btn secondary" id="edit-cancel">إلغاء</button></div>
   </form>
  </div>
- <div class="card"><div class="card-title"><div><h2>السور المحفوظة</h2><p class="help">اضغط على اسم السورة، ثم اختر تعديل القسم أو حذفه. الأقسام مرتبة حسب أرقام الآيات.</p></div><span class="pill" id="library-count">١٥ سورة</span></div><div id="library-list"></div></div>
+ <div class="card" id="edit-whole-panel" hidden>
+  <h2 id="edit-whole-title">تعديل بداية السورة</h2>
+  <p class="help">يمكنك تحديث أول كلمات السورة الكاملة، من دون تغيير علامة القراءة أو بدء دورة جديدة.</p>
+  <form id="edit-whole-form" novalidate>
+   <div class="field"><label for="edit-whole-opening">أول كلمات السورة (اختياري)</label><input id="edit-whole-opening" type="text" maxlength="140" autocomplete="off" placeholder="مثلاً: قل هو الله أحد"></div>
+   <div class="buttonrow"><button type="submit" class="btn">حفظ التعديل</button><button type="button" class="btn secondary" id="edit-whole-cancel">إلغاء</button></div>
+  </form>
+ </div>
+ <div class="card"><div class="card-title"><div><h2>السور المحفوظة</h2><p class="help">اضغط على السورة لتعديل البداية أو الأقسام أو الحذف. أي تغيير يظهر مباشرة في الدورة الحالية.</p></div><span class="pill" id="library-count">١٥ سورة</span></div><div id="library-list"></div></div>
 </section>
 <section id="backup-panel" class="panel" role="tabpanel" hidden>
  <div class="card"><h2>حفظ بياناتك</h2><p>هذا التطبيق <strong>محلي بالكامل</strong>. بيانات القراءة تُحفظ في المتصفح على الجهاز الحالي فقط، ولا تتزامن تلقائياً مع الآيفون أو الآيباد أو الماك.</p><div class="callout">نقل ملف HTML إلى iCloud Drive لا ينقل علامات القراءة بين الأجهزة. كذلك، معاينة الملفات على الآيفون قد لا تحفظ التغييرات. احتفظ بنسخ احتياطية منتظمة.</div>
@@ -65,10 +74,10 @@
   <h3>استعادة نسخة احتياطية</h3><p class="help">اختر ملف JSON صدّرته من هذا التطبيق. الاستعادة تستبدل البيانات الحالية بعد تأكيدك.</p>
   <label for="import-backup" class="btn secondary filebtn wide">↑ اختيار نسخة JSON لاستعادتها</label><input class="filesel" id="import-backup" type="file" accept=".json,application/json">
  </div>
- <div class="card"><h2>استيراد ملفات السور القديمة</h2><p class="help">اختياري: يمكنك اختيار ملفات <b>.txt</b> التي أنشأتها سابقاً داخل مجلد <b>السور_المحفوظة</b> في iCloud. سيُضاف غير الموجود فقط، بدون تغيير الدورة الحالية.</p><label for="import-texts" class="btn soft filebtn wide">＋ اختيار ملفات السور (.txt)</label><input id="import-texts" class="filesel" type="file" multiple accept=".txt,text/plain"><p class="hint">ملفات مثل 067-الملك.txt أو 002-البقرة.txt. اختر الملفات نفسها، وليس مجلد مكتبة السور الـ١١٤.</p></div>
+ <div class="card"><h2>استيراد ملفات السور القديمة</h2><p class="help">اختياري: يمكنك اختيار ملفات <b>.txt</b> التي أنشأتها سابقاً داخل مجلد <b>السور_المحفوظة</b> في iCloud. سيُضاف غير الموجود فوراً إلى الدورة الحالية، مع الحفاظ على العلامات وترتيب السور.</p><label for="import-texts" class="btn soft filebtn wide">＋ اختيار ملفات السور (.txt)</label><input id="import-texts" class="filesel" type="file" multiple accept=".txt,text/plain"><p class="hint">ملفات مثل 067-الملك.txt أو 002-البقرة.txt. اختر الملفات نفسها، وليس مجلد مكتبة السور الـ١١٤.</p></div>
  <div class="card"><h3>ملاحظات الاستخدام على أجهزة Apple</h3><ol class="mini-list"><li>احتفظ بملف HTML في مكان ثابت وافتحه في متصفح يسمح بتشغيله وحفظ بياناته.</li><li>في معاينة تطبيق Files على iPhone قد لا يعمل JavaScript أو التخزين المحلي بشكل موثوق.</li><li>إذا أردت نقل تقدمك لجهاز آخر: نزّل نسخة احتياطية ثم استعدها على الجهاز الآخر.</li></ol><p class="help">لا يحتاج التطبيق إلى إنترنت أو حساب. لا يغيّر ملفات Notes أو Shortcuts أو iCloud الموجودة.</p></div>
 </section>
-<footer>وردي في الصلاة · v1.1 · نسخة محلية مستقلة · بدون خادم أو اتصال بالشبكة</footer>
+<footer>وردي في الصلاة · v1.2 · نسخة محلية مستقلة · بدون خادم أو اتصال بالشبكة</footer>
 </main>
 <script>
 'use strict';
@@ -76,7 +85,7 @@ const SURAHS = [{"n":1,"name":"الفاتحة","verses":7},{"n":2,"name":"الب
 const SURAHS_BY_N = new Map(SURAHS.map(x=>[x.n,x]));
 const KEY='wirdi-prayer-local-v1';
 const BACKUP_FORMAT='wirdi-prayer-backup';
-let appState=null, canStore=false, currentTab='reading', toastTimer=null, editingSection=null;
+let appState=null, canStore=false, currentTab='reading', toastTimer=null, editingSection=null, editingWhole=null;
 const el=id=>document.getElementById(id);
 const arabicDigits=x=>String(x).replace(/[0-9]/g,d=>'٠١٢٣٤٥٦٧٨٩'[Number(d)]);
 const num3=n=>arabicDigits(String(n).padStart(3,'0'));
@@ -94,10 +103,28 @@ function shuffled(nums,old=[]){
 function nextCycle(lib,previous){
  const ns=Object.keys(lib).map(Number).sort((a,b)=>a-b);
  const order=shuffled(ns,previous?.groups?.map(g=>g.n)||[]);
- return {number:(previous?.number||0)+1,createdAt:new Date().toISOString(),groups:order.map(n=>{
-  const v=lib[n];const entries=v.mode==='whole'?[{kind:'whole'}]:v.sections.slice().sort((a,b)=>a.start-b.start||a.end-b.end).map(e=>({kind:'section',start:e.start,end:e.end,opening:e.opening}));
-  return {n,entries};
- }),checked:{}};
+ return {number:(previous?.number||0)+1,createdAt:new Date().toISOString(),groups:order.map(n=>({n,entries:entriesForSurah(lib[n])})),checked:{}};
+}
+function entriesForSurah(saved){
+ return saved.mode==='whole'?[{kind:'whole',opening:saved.opening||''}]:saved.sections.slice().sort((a,b)=>a.start-b.start||a.end-b.end).map(e=>({kind:'section',start:e.start,end:e.end,opening:e.opening}));
+}
+// Keep the current cycle in sync with the library WITHOUT reshuffling or resetting completed entries.
+// Newly added surahs go at the end; new sections are sorted inside their existing surah group.
+// This also migrates data added to the library by earlier versions but not yet added to their cycle.
+function reconcileCurrentCycle(state){
+ const cycle=state.cycle, seen=new Set(),groups=[];
+ for(const oldGroup of cycle.groups){
+  const saved=state.library[oldGroup.n];
+  if(!saved||seen.has(oldGroup.n))continue;
+  groups.push({n:oldGroup.n,entries:entriesForSurah(saved)});seen.add(oldGroup.n);
+ }
+ for(const n of Object.keys(state.library).map(Number).sort((a,b)=>a-b)){
+  if(!seen.has(n))groups.push({n,entries:entriesForSurah(state.library[n])});
+ }
+ const ids=new Set(groups.flatMap(g=>g.entries.map(e=>itemId(g.n,e))));
+ const checked={};for(const id of ids){if(cycle.checked[id])checked[id]=true;}
+ cycle.groups=groups;cycle.checked=checked;
+ return state;
 }
 function initialState(){
  const library={};for(let n=100;n<=114;n++)library[n]={mode:'whole',sections:[]};
@@ -108,7 +135,11 @@ function validateState(v){
  const lib={};
  for(const [key,raw] of Object.entries(v.library)){
   const n=Number(key);if(!Number.isInteger(n)||n<1||n>114||String(n)!==key||!raw||!['whole','sections'].includes(raw.mode))throw Error('تعريف سورة غير صحيح');
-  if(raw.mode==='whole'){lib[n]={mode:'whole',sections:[]};continue}
+  if(raw.mode==='whole'){
+   const opening=raw.opening===undefined?'':raw.opening;
+   if(typeof opening!=='string'||opening.length>140)throw Error('بداية السورة غير صحيحة');
+   lib[n]={mode:'whole',sections:[],opening:opening.trim()};continue;
+  }
   if(!Array.isArray(raw.sections)||!raw.sections.length||raw.sections.length>surah(n).verses)throw Error('أقسام السورة غير صحيحة');
   const sections=[],seen=new Set();
   for(const e of raw.sections){
@@ -127,7 +158,9 @@ function validateState(v){
   seenSurah.add(g.n);const entries=[];
   for(const e of g.entries){
    if(!e||!['whole','section'].includes(e.kind))throw Error('عنصر قراءة غير صحيح');
-   const copy=e.kind==='whole'?{kind:'whole'}:{kind:'section',start:e.start,end:e.end,opening:e.opening};
+   const copy=e.kind==='whole'?{kind:'whole',opening:e.opening===undefined?'':e.opening}:{kind:'section',start:e.start,end:e.end,opening:e.opening};
+   if(e.kind==='whole'&&(typeof copy.opening!=='string'||copy.opening.length>140))throw Error('بداية السورة في الدورة غير صحيحة');
+   if(e.kind==='whole')copy.opening=copy.opening.trim();
    if(e.kind==='section'&&(!Number.isInteger(e.start)||!Number.isInteger(e.end)||e.start<1||e.end<e.start||e.end>surah(g.n).verses||typeof e.opening!=='string'||!e.opening.trim()||e.opening.length>140))throw Error('قسم دورة غير صحيح');
    const id=itemId(g.n,copy);if(seenItems.has(id))throw Error('عنصر مكرر في الدورة');seenItems.add(id);entries.push(copy);
   }
@@ -164,7 +197,7 @@ function renderReading(){
    const check=document.createElement('input');check.type='checkbox';check.checked=done;
    const words=e.kind==='whole'?`${num3(s.n)} — سورة ${s.name}`:`القسم ${arabicDigits(i+1)} · الآيات ${arabicDigits(e.start)}–${arabicDigits(e.end)}`;
    check.setAttribute('aria-label',e.kind==='whole'?words:`${num3(s.n)} سورة ${s.name} ${words} ${e.opening}`);
-   const body=boxText('span',words,'line');if(e.kind==='section')body.appendChild(boxText('span',`تبدأ بـ «${e.opening}»`,'secondary'));
+   const body=boxText('span',words,'line');if(e.opening)body.appendChild(boxText('span',`تبدأ بـ «${e.opening}»`,'secondary'));
    check.addEventListener('change',()=>{if(check.checked)c.checked[id]=true;else delete c.checked[id];persist();renderReading()});
    label.append(check,body);g.appendChild(label);
   });
@@ -174,12 +207,12 @@ function renderReading(){
 // Editing and deleting affect only the named item, preserving the rest of the cycle.
 function saveManagedChange(candidate,success){
  try{
-  const verified=validateState(candidate);
+  const verified=validateState(reconcileCurrentCycle(candidate));
   if(!canStore)throw Error('الحفظ المحلي غير متاح. افتح التطبيق عبر رابط GitHub Pages في Safari.');
   localStorage.setItem(KEY,JSON.stringify(verified));
   appState=verified;
-  editingSection=null;
-  el('edit-panel').hidden=true;
+  editingSection=null;editingWhole=null;
+  el('edit-panel').hidden=true;el('edit-whole-panel').hidden=true;
   renderReading();renderLibrary();updateExisting();
   notice(success);
   return true;
@@ -197,6 +230,24 @@ function openSectionEdit(n,part){
  el('edit-start').focus({preventScroll:true});
 }
 function cancelSectionEdit(){editingSection=null;el('edit-panel').hidden=true;}
+function openWholeEdit(n){
+ const saved=appState.library[n];if(!saved||saved.mode!=='whole')return;
+ editingWhole=n;cancelSectionEdit();
+ el('edit-whole-title').textContent=`تعديل بداية سورة ${surah(n).name}`;
+ el('edit-whole-opening').value=saved.opening||'';
+ el('edit-whole-panel').hidden=false;
+ el('edit-whole-panel').scrollIntoView({behavior:'smooth',block:'start'});
+ el('edit-whole-opening').focus({preventScroll:true});
+}
+function cancelWholeEdit(){editingWhole=null;el('edit-whole-panel').hidden=true;}
+function saveWholeEdit(event){
+ event.preventDefault();if(editingWhole===null)return;
+ const n=editingWhole,opening=el('edit-whole-opening').value.trim();
+ if(opening.length>140){notice('بداية السورة طويلة جداً.','error');return;}
+ const candidate=clone(appState);if(!candidate.library[n]||candidate.library[n].mode!=='whole')return notice('لم تعد هذه السورة موجودة.','error');
+ candidate.library[n].opening=opening;
+ saveManagedChange(candidate,`تم تحديث بداية سورة ${surah(n).name} في الدورة الحالية.`);
+}
 function saveSectionEdit(event){
  event.preventDefault();if(!editingSection)return;
  const {n,start:oldStart,end:oldEnd}=editingSection,s=surah(n);
@@ -259,8 +310,9 @@ function renderLibrary(){
   const title=document.createElement('summary');title.appendChild(boxText('span',`${num3(n)} — سورة ${s.name}`));title.appendChild(boxText('span',v.mode==='whole'?'كاملة':arabicDigits(v.sections.length)+' أقسام','pill'));d.appendChild(title);
   const info=document.createElement('div');info.className='section-list';
   if(v.mode==='whole'){
-   info.appendChild(boxText('p','السورة كاملة'));
+   info.appendChild(boxText('p',v.opening?`السورة كاملة — تبدأ بـ «${v.opening}»`:'السورة كاملة — لم تُحدّد كلمات البداية'));
    const buttons=document.createElement('div');buttons.className='library-actions';
+   buttons.appendChild(actionButton('تعديل بداية السورة','',()=>openWholeEdit(n)));
    buttons.appendChild(actionButton('حذف السورة','danger',()=>deleteSavedEntry(n)));
    info.appendChild(buttons);
   }else{
@@ -287,6 +339,7 @@ function updateOptions(query=''){
 function updateExisting(){
  const n=Number(el('surah-select').value),s=surah(n),mode=document.querySelector('input[name="mode"]:checked').value;
  const fields=el('section-fields');fields.hidden=mode!=='section';
+ el('whole-fields').hidden=mode!=='whole';
  if(!s){el('surah-meta').textContent='لا توجد سورة مطابقة للبحث';el('existing-info').textContent='';el('add-save').disabled=true;return}
  el('surah-meta').textContent=`عدد الآيات: ${arabicDigits(s.verses)}`;
  const prev=appState.library[n];const info=el('existing-info');info.replaceChildren();let blocked=false;
@@ -306,7 +359,13 @@ function addFromForm(event){
  event.preventDefault();const n=Number(el('surah-select').value),s=surah(n);if(!s){notice('اختر سورة من القائمة.','error');return}
  const mode=document.querySelector('input[name="mode"]:checked').value;const prev=appState.library[n];
  if(prev?.mode==='whole'||(mode==='whole'&&prev)){notice('هذه السورة موجودة مسبقاً؛ لن نضيف نسخة مكررة.','error');return}
- if(mode==='whole'){appState.library[n]={mode:'whole',sections:[]};persist();renderLibrary();updateExisting();notice(`تمت إضافة سورة ${s.name} كاملة. ستظهر بالدورة القادمة.`);return}
+ if(mode==='whole'){
+  const opening=el('whole-opening').value.trim();
+  if(opening.length>140){notice('أول كلمات السورة طويلة جداً.','error');return;}
+  const candidate=clone(appState);candidate.library[n]={mode:'whole',sections:[],opening};
+  if(saveManagedChange(candidate,`تمت إضافة سورة ${s.name} إلى الدورة الحالية.`))el('whole-opening').value='';
+  return;
+ }
  const aRaw=normalizeDigits(el('verse-start').value.trim()),bRaw=normalizeDigits(el('verse-end').value.trim()),opening=el('verse-opening').value.trim();
  const a=Number(aRaw),b=Number(bRaw);
  if(!/^\d+$/.test(aRaw)||!/^\d+$/.test(bRaw)||!Number.isSafeInteger(a)||!Number.isSafeInteger(b)||a<1||b<a||b>s.verses){notice(`راجع أرقام الآيات. سورة ${s.name} فيها ${arabicDigits(s.verses)} آية.`, 'error');return}
@@ -314,9 +373,10 @@ function addFromForm(event){
  const parts=prev?.sections||[];
  if(parts.some(e=>e.start===a&&e.end===b)){notice('هذا القسم موجود بالفعل بنفس نطاق الآيات.','error');return}
  const sections=[...parts,{start:a,end:b,opening}].sort((x,y)=>x.start-y.start||x.end-y.end);
- appState.library[n]={mode:'sections',sections};persist();renderLibrary();updateExisting();
- el('verse-start').value='';el('verse-end').value='';el('verse-opening').value='';
- notice(`حُفظ القسم ${arabicDigits(a)}–${arabicDigits(b)} من سورة ${s.name}. يظهر في الدورة القادمة.`);
+ const candidate=clone(appState);candidate.library[n]={mode:'sections',sections};
+ if(saveManagedChange(candidate,`أُضيف القسم ${arabicDigits(a)}–${arabicDigits(b)} من سورة ${s.name} إلى الدورة الحالية.`)){
+  el('verse-start').value='';el('verse-end').value='';el('verse-opening').value='';
+ }
 }
 function startNewCycle(){
  const c=appState.cycle;const all=c.groups.flatMap(g=>g.entries.map(e=>itemId(g.n,e)));const remaining=all.filter(k=>!c.checked[k]).length;
@@ -333,7 +393,7 @@ async function importBackup(e){
  if(file.size>2_000_000){notice('حجم النسخة أكبر من الحد المسموح.','error');return}
  try{
   const obj=JSON.parse(await file.text());if(obj?.format!==BACKUP_FORMAT||obj.version!==1)throw Error('هذا الملف ليس نسخة احتياطية من وردي في الصلاة');
-  const candidate=validateState(obj.state);
+  const candidate=validateState(reconcileCurrentCycle(validateState(obj.state)));
   if(!confirm('استعادة النسخة ستستبدل جميع بيانات التطبيق الحالية على هذا الجهاز. هل أنت متأكد؟'))return;
   const old=appState;appState=candidate;if(!persist()&&canStore){appState=old;throw Error('تعذّر الحفظ')}
   renderAll();switchTab('reading');notice('تم استيراد النسخة الاحتياطية بنجاح.');
@@ -375,14 +435,18 @@ async function importOldFiles(e){
   existing.sections.sort((a,b)=>a.start-b.start||a.end-b.end);
  }
  if(!addedSurahs&&!addedSections){notice(`لم تُضف عناصر جديدة. تخطّينا ${arabicDigits(skipped)} عناصر، وتعذر قراءة ${arabicDigits(errors.length)} ملف.`,errors.length?'warn':'ok');return}
- const msg=`جاهز لإضافة ${arabicDigits(addedSurahs)} سور جديدة و${arabicDigits(addedSections)} أقسام، مع تخطي ${arabicDigits(skipped)} مكرر. ${errors.length?'لم تُقرأ '+arabicDigits(errors.length)+' ملفات. ':''}لا تتغير الدورة الحالية. هل تريد المتابعة؟`;
+ const msg=`جاهز لإضافة ${arabicDigits(addedSurahs)} سور جديدة و${arabicDigits(addedSections)} أقسام، مع تخطي ${arabicDigits(skipped)} مكرر. ${errors.length?'لم تُقرأ '+arabicDigits(errors.length)+' ملفات. ':''}ستظهر الإضافات في الدورة الحالية دون تصفير علامات القراءة. هل تريد المتابعة؟`;
  if(!confirm(msg))return;
- appState.library=temp;persist();renderLibrary();updateExisting();notice(`تم الاستيراد: ${arabicDigits(addedSurahs)} سور جديدة، ${arabicDigits(addedSections)} أقسام. ${errors.length?'ملفات غير مقروءة: '+arabicDigits(errors.length):''}`,errors.length?'warn':'ok');
+ const candidate=clone(appState);candidate.library=temp;
+ saveManagedChange(candidate,`تم الاستيراد إلى الدورة الحالية: ${arabicDigits(addedSurahs)} سور جديدة، ${arabicDigits(addedSections)} أقسام. ${errors.length?'ملفات غير مقروءة: '+arabicDigits(errors.length):''}`);
 }
 function renderAll(){renderReading();renderLibrary();updateOptions(el('surah-search').value)}
 function init(){
  canStore=storageProbe();el('storage-warning').hidden=canStore;
- try{const raw=canStore?localStorage.getItem(KEY):null;appState=raw?validateState(JSON.parse(raw)):initialState();if(!raw)persist()}
+ try{const raw=canStore?localStorage.getItem(KEY):null;
+  appState=raw?validateState(reconcileCurrentCycle(validateState(JSON.parse(raw)))):initialState();
+  if(canStore)persist();
+ }
  catch{appState=initialState();el('storage-warning').hidden=false;canStore=false;notice('لم نستطع قراءة بيانات سابقة. لم نحذف البيانات القديمة، والنسخة الحالية مؤقتة.','error')}
  document.querySelectorAll('[data-tab]').forEach(btn=>btn.addEventListener('click',()=>switchTab(btn.dataset.tab)));
  el('go-manage').addEventListener('click',()=>switchTab('manage'));
@@ -393,6 +457,8 @@ function init(){
  el('add-form').addEventListener('submit',addFromForm);
  el('edit-form').addEventListener('submit',saveSectionEdit);
  el('edit-cancel').addEventListener('click',cancelSectionEdit);
+ el('edit-whole-form').addEventListener('submit',saveWholeEdit);
+ el('edit-whole-cancel').addEventListener('click',cancelWholeEdit);
  el('export-backup').addEventListener('click',exportBackup);
  el('import-backup').addEventListener('change',importBackup);
  el('import-texts').addEventListener('change',importOldFiles);
